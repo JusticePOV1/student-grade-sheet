@@ -8,9 +8,8 @@
 class Course {
 private:
   std::string courseName;
+  unsigned creditHours;
   std::string letterGrade;
-  int creditHours;
-}
 
 public:
   Course(std::string theCourseName, unsigned theCreditHours,
