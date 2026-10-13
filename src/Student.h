@@ -9,11 +9,17 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
+#include "Course.h"
+
 #include <iostream>
+#include <vector>
 
 class Student {
 private:
   std::string name;
+  std::vector<Course> courses;
+
+public:
 };
 
 #endif
