@@ -1,2 +1,2 @@
-# student-grade-sheet
+# Student Grade Sheet
 A student transcript manager.
