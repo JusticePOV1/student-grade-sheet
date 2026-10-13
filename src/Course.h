@@ -12,4 +12,13 @@ private:
   int creditHours;
 }
 
-#endif;
+public:
+  Course(std::string theCourseName, unsigned theCreditHours,
+         std::string theLetterGrade) {
+    courseName = theCourseName;
+    creditHours = theCreditHours;
+    letterGrade = theLetterGrade;
+  }
+};
+
+#endif
