@@ -20,12 +20,13 @@ private:
   string letterGrade;
 
 public:
-  Course(std::string theCourseName, unsigned theCreditHours,
-         std::string theLetterGrade) {
-    courseName = theCourseName;
-    creditHours = theCreditHours;
-    letterGrade = theLetterGrade;
-  }
+  Course(string theCourseName, int theCreditHours, string theLetterGrade);
+
+  string getCourseName() const;
+  int getCreditHours() const;
+  string getLetterGrade() const;
+  double getGradePoints() const;
+  double getTotalPoints() const;
 };
 
 #endif
