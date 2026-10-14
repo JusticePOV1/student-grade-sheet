@@ -26,6 +26,7 @@ public:
   string getCourseName() const;
   int getCreditHours() const;
   string getLetterGrade() const;
+
   double getGradePoints() const;
   double getTotalPoints() const;
 
