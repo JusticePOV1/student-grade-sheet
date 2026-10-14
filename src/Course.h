@@ -11,11 +11,13 @@
 
 #include <iostream>
 
+using namespace std;
+
 class Course {
 private:
-  std::string courseName;
+  string courseName;
   int creditHours;
-  std::string letterGrade;
+  string letterGrade;
 
 public:
   Course(std::string theCourseName, unsigned theCreditHours,
