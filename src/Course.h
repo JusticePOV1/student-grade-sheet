@@ -20,7 +20,8 @@ private:
   string letterGrade;
 
 public:
-  Course(string theCourseName, int theCreditHours, string theLetterGrade);
+  Course(const string &theCourseName, int theCreditHours,
+         const string &theLetterGrade);
 
   string getCourseName() const;
   int getCreditHours() const;
