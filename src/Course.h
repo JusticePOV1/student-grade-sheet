@@ -14,7 +14,7 @@
 class Course {
 private:
   std::string courseName;
-  unsigned creditHours;
+  int creditHours;
   std::string letterGrade;
 
 public:
