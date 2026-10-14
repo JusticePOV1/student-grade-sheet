@@ -12,7 +12,6 @@ Course::Course(const string& theCourseName,
     this->letterGrade = theLetterGrade;
 }
 
-// ---------- Getters ----------
 string Course::getCourseName() const { return courseName; }
 int Course::getCreditHours() const { return creditHours; }
 string Course::getLetterGrade() const { return letterGrade; }
