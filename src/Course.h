@@ -10,20 +10,30 @@
 #define COURSE_H
 
 #include <iostream>
+#include <string>
+using namespace std;
 
 class Course {
 private:
-  std::string courseName;
-  unsigned creditHours;
-  std::string letterGrade;
+    string courseName;
+    int creditHours;
+    string letterGrade;
 
 public:
-  Course(std::string theCourseName, unsigned theCreditHours,
-         std::string theLetterGrade) {
-    courseName = theCourseName;
-    creditHours = theCreditHours;
-    letterGrade = theLetterGrade;
-  }
+    // Constructors
+    Course();
+    Course(const string& courseName, int creditHours, const string& letterGrade);
+
+    // Const getters (they do not change the object)
+    string getCourseName() const;
+    int getCreditHours() const;
+    string getLetterGrade() const;
+    double getGradePoints() const;
+    double getTotalPoints() const;
+
+    // Helpers that belong to the class but don't need an object
+    static bool isValidGrade(const string& letterGrade);
+    static double gradeToPoints(const string& letterGrade);
 };
 
 #endif
