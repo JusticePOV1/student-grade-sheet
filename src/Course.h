@@ -1,7 +1,7 @@
 // Course.h
 
 /**
- * Author(s): Jhonatan Parada & Tazim Ahmed
+ * Author(s): Jhonatan Parada & Tazim Ahmed & Justin Rodriguez
  * Date: Oct 17, 2026
  * Group: 7
  */
