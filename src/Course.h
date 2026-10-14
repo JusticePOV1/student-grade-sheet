@@ -28,6 +28,10 @@ public:
   string getLetterGrade() const;
   double getGradePoints() const;
   double getTotalPoints() const;
+
+  bool isValidLetterGrade(const string& theLetterGrade) const;
+  double gradeToPoints(const string& theLetterGrade) const;
+
 };
 
 #endif
