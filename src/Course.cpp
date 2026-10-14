@@ -48,3 +48,12 @@ double Course::gradeToPoints(const string& theLetterGrade) const {
     if (theLetterGrade == "D-") return 0.7;
     return 0.0;        // F (or anything unexpected)
 }
+
+/**
+ * Jhonatan's Reflection: While coding this particular file I learned that you
+ * cannot call a non-const function inside a const function. I spent 2 hours
+ * trying to debug an error regarding the gradeToPoints function, but it wasn't
+ * const. So I went to the Course.h file and made const.
+ *
+ * Tazim's Reflection:
+ */
