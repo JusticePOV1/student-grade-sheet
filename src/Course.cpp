@@ -5,15 +5,11 @@
 
 using namespace std; 
 
-// ---------- Constructors ----------
-// Default constructor
-Course::Course() : courseName(""), creditHours(0), letterGrade("F") {}
- 
-// Parameterized constructor
-Course::Course(const string& courseName, int creditHours, const string& letterGrade) {
-    this->courseName = courseName;
-    this->creditHours = creditHours;
-    this->letterGrade = letterGrade;
+Course::Course(const string& theCourseName,
+               int theCreditHours,const string& theLetterGrade) {
+    this->courseName = theCourseName;
+    this->creditHours = theCreditHours;
+    this->letterGrade = theLetterGrade;
 }
 
 // ---------- Getters ----------
