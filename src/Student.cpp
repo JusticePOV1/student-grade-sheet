@@ -1,10 +1,12 @@
-// Author: Tazim Ahmed
+// Author: Tazim Ahmed & Jhonatan Parada
 // Date: October 12, 2026
 // File: Student.cpp - defines the Student class member functions
 
 #include "Student.h"
 #include <iostream>
 #include <iomanip>
+#include <algorithm>
+
 using namespace std;
 
 // ---------- Constructors ----------
