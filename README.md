@@ -12,6 +12,11 @@ $ cmake --build build
 $ ./build/student-grade-sheet
 ```
 
+Checkout the dashboard quickly using a sample file:  
+```
+$ ./build/student-grade-sheet < test-input.txt
+```
+
 ## Progress
 Student.h: Done  
 Course.h: Done  
