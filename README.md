@@ -25,6 +25,7 @@ Course.cpp: Needs Tazim's reflections
 main.cpp: Needs reflections   
 
 ## Tasks
+- There is a misprecision of one decimal in "Semester GPA"
 - Maybe remove the sort prompt since it is not specified in the instructions?
 - Fix format for Total Credits entry (If enough time)
 - add func to uppercase course names (If enough time)
