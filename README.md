@@ -13,11 +13,11 @@ $ ./build/student-grade-sheet
 ```
 
 ## Progress
-Student.h: Done
-Course.h: Done
-Student.cpp: Need reflections
-Course.cpp: Needs Tazim's reflections
-main.cpp: Needs reflections 
+Student.h: Done  
+Course.h: Done  
+Student.cpp: Need reflections  
+Course.cpp: Needs Tazim's reflections  
+main.cpp: Needs reflections   
 
 ## Tasks
 - fix parameter in cin.ignore to reflect class slides.
