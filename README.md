@@ -1,4 +1,5 @@
 # Student Grade Sheet
+
 A student transcript manager.
 
 ## Requirements
@@ -22,4 +23,4 @@ Student.h: Done
 Course.h: Done  
 Student.cpp: Needs reflections  
 Course.cpp: Needss Tazim's & Justin reflections  
-main.cpp: Needs reflections   
+main.cpp: Needs reflections
