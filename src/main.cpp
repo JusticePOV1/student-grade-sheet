@@ -1,11 +1,16 @@
-// Author: Tazim Ahmed & Jhonatan Parada
-// Date: October 12, 2026
-// Course: CSCI 272 - Object Oriented Programming
-// Group Project: Student Grade Sheet 
+// main.cpp
+
+/**
+ * Author(s): Tazim Ahmed & Jhonatan Parada
+ * Date: October 17, 2026
+ * Group: 7
+ *
+ * Git Repo:
+ * github.com/jhonatanparada499/student-grade-sheet
+ */
 
 #include <iostream>
 #include <string>
-#include <cctype>
 // Required for numeric_limits in cin.ignore
 #include <limits>
 
@@ -15,7 +20,6 @@
 using namespace std;
 
 // Asks for a whole number between min and max.
-
  int getNumber(string str, int min, int max) {
     int number;
     while (true) {
