@@ -1,7 +1,8 @@
+// Course.cpp
 
 #include "Course.h"
 #include <string>
-#include <iostream>
+
 using namespace std; 
 
 // ---------- Constructors ----------
@@ -56,7 +57,6 @@ double Course::gradeToPoints(const string& letterGrade) {
     if (letterGrade == "D-") return 0.7;
     return 0.0;        // F (or anything unexpected)
 }
-
 
 /**
  * Jhonatan's Reflection: While coding this particular file I learned that you
