@@ -24,7 +24,7 @@ using namespace std;
 
         if (cin.fail()) {
             cin.clear(); // reset cin
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // throw away bad input
             cout << "  Invalid input. Please enter a number." << endl;
         } else if (number < min || number > max) {
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
@@ -105,3 +105,18 @@ int main() {
 
     return 0;
 }
+
+
+/**
+ * Jhonatan's Reflection: 
+ *
+ * Tazim's Reflection: Working on this file became easier after we had 
+ * the Student and Course classes. I learned that the main function 
+ * should handle user input and output, while the Student and Course classes 
+ * should handle the data and calculations like backend logic. I also 
+ * learned that it is important to validate user input to prevent errors.
+ * Like created unlimited loops for getGrade, getText and getNumber to get 
+ * the user to enter the correct input. I also learned that the main 
+ * function should be kept simple and not contain too much logic, 
+ * and that it should delegate tasks to the appropriate classes and methods.
+ */
