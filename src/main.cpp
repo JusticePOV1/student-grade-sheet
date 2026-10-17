@@ -1,4 +1,4 @@
-// Author: Tazim Ahmed
+// Author: Tazim Ahmed & Jhonatan Parada
 // Date: October 12, 2026
 // Course: CSCI 272 - Object Oriented Programming
 // Group Project: Student Grade Sheet 
