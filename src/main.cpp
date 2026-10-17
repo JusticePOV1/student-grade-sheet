@@ -6,6 +6,9 @@
 #include <iostream>
 #include <string>
 #include <cctype>
+// Required for numeric_limits in cin.ignore
+#include <limits>
+
 #include "Course.h"
 #include "Student.h"
 
@@ -20,16 +23,15 @@ using namespace std;
         cin >> number;
 
         if (cin.fail()) {
-            // user typed letters instead of a number
             cin.clear(); // reset cin
-            cin.ignore(1000, '\n'); // throw away bad input
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "  Invalid input. Please enter a number." << endl;
         } else if (number < min || number > max) {
-            cin.ignore(1000, '\n');
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "  Please enter a number from " << min << " to " << max << "." << endl;
         } else {
             // remove the leftover Enter key so getline works next time
-            cin.ignore(1000, '\n');
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             return number;
         }
     }
