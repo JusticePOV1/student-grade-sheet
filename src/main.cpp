@@ -90,18 +90,7 @@ int main() {
     }
 
     // 4. Print the transcript
-    student.printTranscript(0);
-
-    // 5. Extra credit
-    cout << "\nSort the transcript?\n";
-    cout << "  0 = No" << endl;
-    cout << "  1 = By credits (highest first)" << endl;
-    cout << "  2 = By course name (A-Z)" << endl;
-    int choice = getNumber("Your choice: ", 0, 2);
-
-    if (choice != 0) {
-        student.printTranscript(choice);
-    }
+    student.printTranscript(2); // Sort asc by course name
 
     return 0;
 }
