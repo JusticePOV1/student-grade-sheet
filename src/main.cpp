@@ -108,7 +108,12 @@ int main() {
 
 
 /**
- * Jhonatan's Reflection: 
+ * Jhonatan's Reflection: I was reviewing Tazim's code and noticed that
+ * cin.ignore was being given a paramter of 1000(meaning the first 1000
+ * characters until it hits \n) But then I remember the class slides. Something
+ * called numberic_limits was being used instead. So I suggested the changes to
+ * Tazim. cin.ignore is pretty much used when a program uses the shift operator
+ * (<<) and the getline function. If it only used <<, it wouldn't be necessary.
  *
  * Tazim's Reflection: Working on this file became easier after we had 
  * the Student and Course classes. I learned that the main function 
