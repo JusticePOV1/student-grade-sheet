@@ -20,6 +20,6 @@ $ ./build/student-grade-sheet < test-input.txt
 ## Progress
 Student.h: Done  
 Course.h: Done  
-Student.cpp: Need reflections  
-Course.cpp: Needs Tazim's reflections  
+Student.cpp: Needs reflections  
+Course.cpp: Needss Tazim's & Justin reflections  
 main.cpp: Needs reflections   
