@@ -1,7 +1,7 @@
 // main.cpp
 
 /**
- * Author(s): Tazim Ahmed & Jhonatan Parada
+ * Author(s): Tazim Ahmed & Jhonatan Parada & Justin Rodriguez
  * Date: October 17, 2026
  * Group: 7
  *
@@ -117,4 +117,9 @@ int main() {
  * the user to enter the correct input. I also learned that the main 
  * function should be kept simple and not contain too much logic, 
  * and that it should delegate tasks to the appropriate classes and methods.
+ *
+ * Justins Reflcetion: 
+ * While working on this file, I learned how the main function connects
+ * the Student and Course classes together. I also learned how important
+ * it is to check user input to avoid errors. 
  */
