@@ -1,4 +1,4 @@
-// Author: Tazim Ahmed & Jhonatan Parada
+// Author: Tazim Ahmed & Jhonatan Parada & Justin Rodriguez
 // Date: October 12, 2026
 // File: Student.cpp - defines the Student class member functions
 
