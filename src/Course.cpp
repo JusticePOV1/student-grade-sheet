@@ -1,7 +1,7 @@
 // Course.cpp
 
 /**
- * Author(s): Jhonatan Parada & Tazim Ahmed
+ * Author(s): Jhonatan Parada & Tazim Ahmed & Justin Rodriguez 
  * Date: Oct 17, 2026
  * Group: 7
  */
@@ -77,4 +77,10 @@ double Course::gradeToPoints(const string& letterGrade) {
  * grade points and total points. and also methods to check if the grade
  * is valid and to convert the grade to points as the letterGrade is in 
  * string format.
+ * 
+ * Justins Reflection: 
+ * While working on this file, I learned more about how classes and functions
+ * work together in C++. i also learned how to use methods to get values like
+ * course names, credit hours, and grades. This is helped me 
+ * better understand how to organize code and make sure everything works correctly. 
  */
