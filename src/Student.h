@@ -1,7 +1,7 @@
 // Student.h
 
 /**
- * Author(s): Jhonatan Parada & Tazim Ahmed
+ * Author(s): Jhonatan Parada & Tazim Ahmed & Justin Rodriguez
  * Date: Oct 17, 2026
  * Group: 7
  */
@@ -57,4 +57,9 @@ public:
  *  I learned that a Student class should have a name and a list of courses,
  *  and that it should have methods to add courses, get the total credits and
  *  points, calculate the GPA, and print the transcript.
+ * 
+ * Justins Reflection: While working on the student class, I learned how to use a vector
+ * to store multiple courses for one student. 
+ * I also learned how different methods work together to calculate total credits, grade points,
+ * and Gpa. 
  */
